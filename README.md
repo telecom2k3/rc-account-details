@@ -1,4 +1,11 @@
-#Account Details Roundcube Plugins
+# Account Details Roundcube Plugins
+
+This is a fork from Gene's original plugin.  Changes herein:
+ - Call out the user's WAN IP address in the "User Info" section instead of the server IP address; changed line 174 in account_details.php
+ - My folders are created as Top Folders, not sub-folders of INBOX; changes to lines 214,218, 222, 226, 230 in account_details.php 
+ - Changed "Mailbox Details" to "User System Mailbox Details"; line 57 of localization/en_US.inc
+
+-----
 
 I have merged 3 plugins, userinfo, moreuserinfo and serverinfo into one .. 
 
